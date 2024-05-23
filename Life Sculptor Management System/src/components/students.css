@@ -1,0 +1,104 @@
+/* Students.css */
+
+/* Header */
+.header {
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header h3 {
+    margin: 0;
+  }
+  
+  /* Add Student Button */
+  /* Students.css */
+
+/* Add Student Button */
+.btn {
+    padding: 0.25rem 0.5rem; /* Adjust padding */
+    border: none;
+    border-radius: 0.125rem; /* Reduce border radius */
+    cursor: pointer;
+    margin-right: 0.5rem;
+    transition: background-color 0.3s ease; /* Add transition for smoother hover effect */
+  }
+  
+  .btn-edit {
+    background-color: #ffc107;
+    color: white;
+  }
+  
+  .btn-delete {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .btn:hover {
+    background-color: #e0e0e0; /* Change background color on hover */
+    color: black;
+  }
+  
+  /* Search Input */
+  .search-input {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  /* Content */
+  .content {
+    margin-top: 20px;
+  }
+  
+  /* Table */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  /* Pagination */
+  .pagination {
+    margin-top: 20px;
+  }
+  
+  .pagination-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .pagination-item {
+    margin-right: 5px;
+  }
+  
+  .pagination-link {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pagination-link:hover {
+    background-color: #0056b3;
+  }
+  
+  .pagination-item.active .pagination-link {
+    background-color: #0056b3;
+  }
+  
